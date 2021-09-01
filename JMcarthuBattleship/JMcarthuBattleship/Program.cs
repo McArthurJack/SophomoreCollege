@@ -6,7 +6,7 @@ namespace JMcarthuBattleship
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game Battleship = new Game();
         }
     }
 }
