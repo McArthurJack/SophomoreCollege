@@ -116,10 +116,10 @@ namespace JMcarthuBattleship
                 {
                     gameBoard.Display();
                 }
-                Console.Write("\nEnter the Row Value: ");
+                Console.Write("\nEnter the Column: ");
+                y = Console.ReadLine()[0] - 97;
+                Console.Write("\nEnter the Row: ");
                 x = int.Parse(Console.ReadLine()) - 1;
-                Console.Write("\nEnter the Column Value: ");
-                y = int.Parse(Console.ReadLine()) - 1;
 
                 Attack(gameBoard, x, y);
 

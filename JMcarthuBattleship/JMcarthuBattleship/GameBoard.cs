@@ -118,7 +118,7 @@ namespace JMcarthuBattleship
             Console.Write("   ");
             for (int i = 0; i < board.GetLength(0); i++)
             {
-                Console.Write($"  {i+1} ");
+                Console.Write($"  {(char)(i+97)} ");
             }
             Console.WriteLine();
         }
