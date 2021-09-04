@@ -35,5 +35,10 @@ namespace JMcarthuBattleship
         {
             return sternY;
         }
+
+        public int getLength()
+        {
+            return length;
+        }
     }
 }

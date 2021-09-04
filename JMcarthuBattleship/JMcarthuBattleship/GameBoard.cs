@@ -19,17 +19,52 @@ namespace JMcarthuBattleship
             }
         }
 
-        public void PlaceShip(int x, int y)
+        public void PlaceChar(int x, int y, char Letter)
         {
-            board[x, y] = 'S';
+            board[x, y] = Letter;
+        }
+
+        public char GetChar(int x, int y)
+        {
+            return board[x, y];
+        }
+
+        public bool CheckShip(int bowX, int bowY, int sternX, int sternY)
+        {
+            bool answer = false;
+
+            for (int i = bowX; i <= sternX; i++)
+            {
+                if (board[i, bowY] == 'S')
+                {
+                    answer = true;
+                }
+            }
+            for (int j = bowY; j <= sternY; j++)
+            {
+                if (board[bowX, j] == 'S')
+                {
+                    answer = true;
+                }
+            }
+
+            return answer;
         }
 
         public void Display()
         {
+            Columns();
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 HorizontalBar();
-                Console.Write("|");
+                if (i == 9)
+                {
+                    Console.Write($"{i + 1} |");
+                }
+                else
+                {
+                    Console.Write($"{i + 1}  |");
+                }
                 for (int j = 0; j < board.GetLength(1); j++)
                 {
                     if (board[i,j] == 'S')
@@ -47,10 +82,18 @@ namespace JMcarthuBattleship
         }
         public void Display(char Hack)
         {
+            Columns();
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 HorizontalBar();
-                Console.Write("|");
+                if (i == 9)
+                {
+                    Console.Write($"{i + 1} |");
+                }
+                else
+                {
+                    Console.Write($"{i + 1}  |");
+                }
                 for (int j = 0; j < board.GetLength(1); j++)
                 {
                     Console.Write($" {board[i, j]} |");
@@ -62,12 +105,40 @@ namespace JMcarthuBattleship
 
         private void HorizontalBar()
         {
-            Console.Write("-");
+            Console.Write("   -");
             for (int i = 0; i < board.GetLength(0); i++)
             {
                 Console.Write("----");
             }
             Console.WriteLine();
+        }
+
+        private void Columns()
+        {
+            Console.Write("   ");
+            for (int i = 0; i < board.GetLength(0); i++)
+            {
+                Console.Write($"  {i+1} ");
+            }
+            Console.WriteLine();
+        }
+
+        public bool ClearBoard()
+        {
+            bool Clear = true;
+
+            for (int i = 0; i < board.GetLength(0); i++)
+            {
+                for (int j = 0; j < board.GetLength(1); j++)
+                {
+                    if (board[i, j] == 'S')
+                    {
+                        Clear = false;
+                    }
+                }
+            }
+
+            return Clear;
         }
     }
 }

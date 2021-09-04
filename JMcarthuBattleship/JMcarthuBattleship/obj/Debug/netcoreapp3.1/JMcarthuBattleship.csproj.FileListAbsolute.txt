@@ -4,10 +4,11 @@ D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\bin\Debug\netcoreapp3.
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\bin\Debug\netcoreapp3.1\JMcarthuBattleship.runtimeconfig.dev.json
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\bin\Debug\netcoreapp3.1\JMcarthuBattleship.dll
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\bin\Debug\netcoreapp3.1\JMcarthuBattleship.pdb
-D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.csprojAssemblyReference.cache
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.AssemblyInfoInputs.cache
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.AssemblyInfo.cs
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.csproj.CoreCompileInputs.cache
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.dll
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.pdb
 D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.genruntimeconfig.cache
+D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.csproj.AssemblyReference.cache
+D:\SophomoreCollege\JMcarthuBattleship\JMcarthuBattleship\obj\Debug\netcoreapp3.1\JMcarthuBattleship.GeneratedMSBuildEditorConfig.editorconfig
