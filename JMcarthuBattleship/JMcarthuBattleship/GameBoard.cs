@@ -6,8 +6,10 @@ namespace JMcarthuBattleship
 {
     class GameBoard
     {
+        //Board used for battleship
         char[,] board = new char[10, 10];
 
+        //Puts a space character as the char for each spot on the board
         public void FillBoard()
         {
             for (int i = 0; i < board.GetLength(0); i++)
@@ -19,38 +21,20 @@ namespace JMcarthuBattleship
             }
         }
 
+        //Places a parameter character into a place on the board
         public void PlaceChar(int x, int y, char Letter)
         {
             board[x, y] = Letter;
         }
 
+        //Returns the character at a specific spot on the board
         public char GetChar(int x, int y)
         {
             return board[x, y];
         }
 
-        public bool CheckShip(int bowX, int bowY, int sternX, int sternY)
-        {
-            bool answer = false;
-
-            for (int i = bowX; i <= sternX; i++)
-            {
-                if (board[i, bowY] == 'S')
-                {
-                    answer = true;
-                }
-            }
-            for (int j = bowY; j <= sternY; j++)
-            {
-                if (board[bowX, j] == 'S')
-                {
-                    answer = true;
-                }
-            }
-
-            return answer;
-        }
-
+        //Displays the board without hacks
+        //Writes the letters in the top row and then for each row will write a column number and evenly space every spot
         public void Display()
         {
             Columns();
@@ -80,6 +64,8 @@ namespace JMcarthuBattleship
             }
             HorizontalBar();
         }
+
+        //A overload method of the Display method that when called displays the ships instead of hiding them
         public void Display(char Hack)
         {
             Columns();
@@ -103,6 +89,7 @@ namespace JMcarthuBattleship
             HorizontalBar();
         }
 
+        //Creates a horizontal bar to seperate each column for the display method
         private void HorizontalBar()
         {
             Console.Write("   -");
@@ -113,6 +100,7 @@ namespace JMcarthuBattleship
             Console.WriteLine();
         }
 
+        //Writes the columns in alphabetical order above the rest of the display method
         private void Columns()
         {
             Console.Write("   ");
@@ -123,22 +111,34 @@ namespace JMcarthuBattleship
             Console.WriteLine();
         }
 
-        public bool ClearBoard()
+        //Checks if the ship has any parts left standing
+        //Is used to check if a ship is sunk and if I can place another ship in the spaces upon creation of a ship
+        public bool CheckShip(int bowX, int bowY, int sternX, int sternY)
         {
-            bool Clear = true;
+            bool answer = false;
 
-            for (int i = 0; i < board.GetLength(0); i++)
+            if (bowY == sternY)
             {
-                for (int j = 0; j < board.GetLength(1); j++)
+                for (int i = bowX; i <= sternX; i++)
                 {
-                    if (board[i, j] == 'S')
+                    if (board[i, bowY] == 'S')
                     {
-                        Clear = false;
+                        answer = true;
+                    }
+                }
+            }
+            else
+            {
+                for (int j = bowY; j <= sternY; j++)
+                {
+                    if (board[bowX, j] == 'S')
+                    {
+                        answer = true;
                     }
                 }
             }
 
-            return Clear;
+            return answer;
         }
     }
 }
