@@ -1,0 +1,14 @@
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.exe
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.deps.json
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.runtimeconfig.json
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.runtimeconfig.dev.json
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.dll
+D:\SophomoreCollege\Challenge3\Challenge3\bin\Debug\netcoreapp3.1\Challenge3.pdb
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.csproj.AssemblyReference.cache
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.GeneratedMSBuildEditorConfig.editorconfig
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.AssemblyInfoInputs.cache
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.AssemblyInfo.cs
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.csproj.CoreCompileInputs.cache
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.dll
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.pdb
+D:\SophomoreCollege\Challenge3\Challenge3\obj\Debug\netcoreapp3.1\Challenge3.genruntimeconfig.cache
