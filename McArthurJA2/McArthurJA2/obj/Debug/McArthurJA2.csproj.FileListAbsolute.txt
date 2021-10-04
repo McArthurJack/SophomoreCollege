@@ -1,0 +1,10 @@
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.csproj.AssemblyReference.cache
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.Form1.resources
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.Properties.Resources.resources
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.csproj.GenerateResource.cache
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.csproj.CoreCompileInputs.cache
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\bin\Debug\McArthurJA2.exe.config
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\bin\Debug\McArthurJA2.exe
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\bin\Debug\McArthurJA2.pdb
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.exe
+D:\SophomoreCollege\McArthurJA2\McArthurJA2\obj\Debug\McArthurJA2.pdb
